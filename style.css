@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: bisque;
+}
+.sectionOne {
+    width: 350px;
+    height: 524px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(114, 113, 113);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+.containerOne{
+    width: 330px;
+    height: 514px;
+    background-color: white;
+    margin-top: 5px;
+    box-shadow: 1px 1px 5px rgb(124, 124, 124);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-radius: 5px;
+}
+.containerTwo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.caja1 {
+    text-align: center;
+    font-size: 30px;
+    font-family:louis;
+    margin-top: 40px;  
+}
+@font-face {
+    font-family:louis;
+    src: url(./Assets/BebasNeue-Regular.ttf);
+}
+#email {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgb(136, 136, 138);
+}
+.containerFor {
+    background-color: #151a41;
+    height: 50px;
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family:louis;
+    color: white;
+    font-size: 30px;
+}
+.parrafo2 {
+    text-align: center;
+    margin-top: 7px;
+}
+.containerThree {
+    display: flex;
+    align-items: stretch;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.containerFive {
+    color: black;
+    border-radius: 20px;
+    background-color:white;
+    margin-bottom: 20px;
+    border-width: 0.1px;
+    border-color: #cfcece;
+    padding: 6px 10px;
+    border-style: solid;
+    font-size: 12px;
+    font-family:louis;
+    margin-top: 20px;
+}
